@@ -631,7 +631,7 @@
 
 /* responsive breakpoints */
 
-@media only screen and (width <= 640px){
+@media only screen and (width <= 700px){
 	.card{
 		width: 85%;
 		position: absolute;
