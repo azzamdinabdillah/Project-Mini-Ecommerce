@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Ecommerce</title>
 
-    @vite('resources/css/app.css')
+    {{-- @vite('resources/css/app.css') --}}
+
+    <link rel="stylesheet" href="/build/assets/app.8dcf78b0.css">
 
     {{-- <link rel="stylesheet" href="public/style.css"> --}}
 
