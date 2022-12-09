@@ -631,7 +631,7 @@
 
 /* responsive breakpoints */
 
-@media only screen and (width <= 700px){
+@media only screen and (max-width: 650px){
 	.card{
 		width: 85%;
 		position: absolute;
@@ -640,6 +640,15 @@
 		z-index: 2;
 	}	
 }
+/* @media only screen and (width <= 700px){
+	.card{
+		width: 85%;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+	}	
+} */
 
 
 
