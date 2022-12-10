@@ -52,7 +52,7 @@
     
                     <form wire:submit.prevent="loginSystem">
                         <div class="div-username">
-                            <input wire:model="username" type="text" id="username" name="username" class="username" required="required">
+                            <input wire:model="username" type="text" id="username" name="username" class="username" required="required" autocomplete="off">
                             @error('username')
                                 <span>{{ $message }}</span>
                             @enderror
@@ -63,7 +63,7 @@
     
                         <div class="div-password">
                             
-                            <input wire:model="password" id="password" type="password" name="password" class="password" required="required">
+                            <input wire:model="password" id="password" type="password" name="password" class="password" required="required" autocomplete="off">
                             @error('password')
                                 <span>{{ $message }}</span>
                             @enderror

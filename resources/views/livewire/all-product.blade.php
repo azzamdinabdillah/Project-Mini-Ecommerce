@@ -3,7 +3,7 @@
 
     <div class="w-full px-5">
         <div class="my-5 flex justify-center items-center gap-3">
-            <input placeholder="Masukkan Kata Kunci" wire:model="keyword" type="text" name="keyword" class="mx-auto py-2 px-3 text-black font-semibold w-[100%] bg-[#A5F1E9] shadow-sm focus:outline-[#87C0CD] rounded-md">
+            <input autocomplete="off" placeholder="Masukkan Kata Kunci" wire:model="keyword" type="text" name="keyword" class="mx-auto py-2 px-3 text-black font-semibold w-[100%] bg-[#A5F1E9] shadow-sm focus:outline-[#87C0CD] rounded-md">
             <i class="fa-solid fa-magnifying-glass text-xl p-2 rounded text-black hover:text-slate-500 transition"></i>
             {{-- <button type="submit">
                 <i class="fa-solid fa-magnifying-glass text-xl p-2 rounded text-black hover:text-slate-500 transition"></i>

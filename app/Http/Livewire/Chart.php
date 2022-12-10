@@ -8,6 +8,7 @@ use App\Models\product_model;
 use App\Models\chart_model;
 use App\Http\Livewire\CheckOut;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class Chart extends Component
 {

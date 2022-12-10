@@ -31,8 +31,8 @@
                 <p class="font-bold tracking-tight mt-3">Jumlah = {{ $row->pcs }} Pcs</p>
 
                 <div class="flex gap-2 items-center mt-2">
-                    <i wire:click="minPcs({{ $row->id }})" class="fa-solid fa-minus text-white hover:bg-bg-hover-saat-bg-gelap hover:text-black p-2 bg-biru-agak-gelap rounded-md hover:opacity-70 transition"></i>
-                    <i wire:click="addPcs({{ $row->id }})" class="fa-solid fa-plus text-white p-2 bg-biru-agak-gelap rounded-md hover:bg-bg-hover-saat-bg-gelap hover:text-black transition"></i>
+                    <i wire:click="minPcs({{ $row->id }})" class="fa-solid fa-minus text-white hover:bg-bg-hover-saat-bg-gelap hover:text-black p-2 bg-biru-agak-gelap rounded-md hover:opacity-70 transition cursor-pointer"></i>
+                    <i wire:click="addPcs({{ $row->id }})" class="fa-solid fa-plus text-white p-2 bg-biru-agak-gelap rounded-md hover:bg-bg-hover-saat-bg-gelap hover:text-black transition cursor-pointer"></i>
                 </div>
             </div>
             

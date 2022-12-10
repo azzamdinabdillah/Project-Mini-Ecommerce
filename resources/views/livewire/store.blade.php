@@ -17,10 +17,10 @@
 
     <div class="py-8 px-5 w-full xl:w-[50%] xl:mx-auto">
         <h1 class="text-3xl font-bold text-slate-700">Produk</h1>
-        <p class="text-xs font-semibold mt-1 tracking-wide">Menampilkan Produk Dari Toko {{ $data->name }}</p>
+        <p class="text-xs font-semibold mt-1 tracking-wide">Menampilkan Produk Dari Toko {{ $data->nameStore }}</p>
 
         <div class="my-5 flex justify-center items-center gap-3">
-            <input placeholder="Cari Di Toko {{ $data->name }}" wire:model="keyword" type="text" name="keyword" class="mx-auto py-2 px-3 text-black font-semibold w-[100%] bg-[#A5F1E9] shadow-sm focus:outline-[#87C0CD] rounded-md">
+            <input placeholder="Cari Di Toko {{ $data->nameStore }}" wire:model="keyword" type="text" name="keyword" class="mx-auto py-2 px-3 text-black font-semibold w-[100%] bg-[#A5F1E9] shadow-sm focus:outline-[#87C0CD] rounded-md" autocomplete="off">
             <i class="fa-solid fa-magnifying-glass text-xl p-2 rounded text-black hover:text-slate-500 transition"></i>
             {{-- <button type="submit">
                 <i class="fa-solid fa-magnifying-glass text-xl p-2 rounded text-black hover:text-slate-500 transition"></i>

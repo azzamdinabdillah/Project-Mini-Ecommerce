@@ -19,50 +19,8 @@
     <!-- siwper.js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    {{-- fontawesome css --}}
-    <link 
-    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
-    rel="stylesheet" type='text/css'>
-
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/9a3f20c4de.js" crossorigin="anonymous"></script>
-
-    {{-- jquery --}}
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
-
-    <style>
-        /* @media (min-width: 1024px) {
-            .categories{
-                transition: 2s all;
-            }
-
-            .categories-paragraf{
-                color: black;
-                transform: translateX(-150px);;
-                transition: 1s ease-in-out;
-            }
-
-            .categories:hover .categories-paragraf{
-                display: block;
-                transform: translateX(10px);
-                transition: 1s ease-in-out;
-            }
-
-            .categories:hover .categories-gelap{
-                display: block;
-            }
-        } */
-
-        /* .categories-laptop-pc{
-            height: 28vh;
-        } */
-
-        /* .categories-hp-pc:hover .categories-laptop-pc{
-            height: 8vh;
-        } */
-
-        
-    </style>
 
     @livewireStyles
 </head>
@@ -95,22 +53,11 @@
         });
     </script>
 
-    <script>
-        $(document).ready(function(){
-        $(".preloader").fadeOut();
-        })
-    </script>
-
-    <script>
-        user-dropdown.hide();
-    </script>
-
-
 @livewireScripts
 
-{{-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="/vendor/sweetalert/sweetalert.all.js"></script>    
+    {{-- <script src="/vendor/sweetalert/sweetalert.all.js"></script>     --}}
 
   <x-livewire-alert::scripts />
 
